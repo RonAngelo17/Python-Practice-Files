@@ -1,0 +1,15 @@
+fir_num= float(input("Enter first number: "))
+sec_num= float(input("Enter second number: "))
+operation= input("Enter operation: ")
+
+
+if operation=="+":
+    print(fir_num+sec_num)
+elif operation=="-":
+    print(fir_num-sec_num)
+elif operation=="*":
+    print(fir_num*sec_num)
+elif operation=="/":
+    print(fir_num/sec_num)
+else:
+    print("Invalid operation")
